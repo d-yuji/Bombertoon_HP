@@ -1,2 +1,2 @@
 # Bombertoon_HP
-Bombertoon_HP
+Bombertoon_HPを整理しながらGitを覚える
