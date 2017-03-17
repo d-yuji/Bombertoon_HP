@@ -23,20 +23,19 @@ header{
 	text-align:center;
 }
 #menu li a {
-  width:auto;
-  color:#FFFFFF;
-  font-size:12px;
-  /*font-weight:bold;*/
-  padding:10px 0;
-  text-decoration:none;
-  display:block;
-  background:#3737DC;/*#1A1ABD;*//*#3F51B5;*/
-  border-left: 1px solid #FFFFFF;
+	width:auto;
+	color:#FFFFFF;
+	font-size:12px;
+	padding:10px 0;
+	text-decoration:none;
+	display:block;
+	background:#3737DC;
+	border-left: 1px solid #FFFFFF;
 }
 #menu li a:hover {
-  color:#263238;
-  font-weight:bold;
-  background:#C5CAE9;
+	color:#263238;
+	font-weight:bold;
+	background:#C5CAE9;
 }
 #menu li:first-child a {
 	border-radius: 5px 0 0 5px;
