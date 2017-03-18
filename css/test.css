@@ -1,0 +1,61 @@
+body{
+	background: #FAFAFA;
+	margin: 30px auto;
+	font-family:'メイリオ', Meiryo,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',  'ＭＳ Ｐゴシック', sans-serif !important;
+	background-image: url("../images/haikei.png");
+}
+header{
+	background: rgba(245,245,245,0.85);/*#F5F5F5*/
+	width: 1000px;
+	text-align: text-left;
+	margin:10px auto;
+}
+#menu {
+ 	padding:0;
+ 	margin:10px auto;
+ 	list-style-type: none;
+}
+#menu li {
+	width:12.5%;
+	float:left;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+#menu li a {
+	width:auto;
+	color:#FFFFFF;
+	font-size:12px;
+	padding:10px 0;
+	text-decoration:none;
+	display:block;
+	background:#3737DC;
+	border-left: 1px solid #FFFFFF;
+}
+#menu li a:hover {
+	color:#263238;
+	font-weight:bold;
+	background:#C5CAE9;
+}
+#menu li:first-child a {
+	border-radius: 5px 0 0 5px;
+}
+#menu li:last-child a {
+	border-radius:  0 5px 5px 0;
+}
+#contents{
+	width:920px;
+	background: rgba(250,250,250,0.85);/*#F5F5F5*/
+	color: #1F242E;
+	padding: 10px 30px 10px 50px;
+	text-align:text-left;
+	margin:60px auto;
+	line-height: 1.5em;
+
+}
+footer{
+	font-size:12px;
+	width: 1000px;
+	text-align: center;
+	margin: 10px auto
+}
