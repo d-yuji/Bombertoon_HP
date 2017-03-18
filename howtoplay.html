@@ -3,52 +3,69 @@
 <html lang = "ja">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bombertoon</title>
-<!--        <link rel ="shortcut icon" href="http://bombertoon.web.fc2.com/BT.ico"> -->
-       <link rel ="shortcut icon" href="BT.ico">
-       <style></style>
-       <link rel="stylesheet" href="css_src/test.css" >
+		<link rel ="shortcut icon" href="BT.ico">
+		<style></style>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="css/test.css" >
 	</head>
 	<body>
 		<header>
-			<img src="images/logo2.png">
-			<ul id = "menu">
-				<li><a href="index.html">ホーム</a></li>
-				<li><a href="whatsnew.html">お知らせ・更新情報</a></li>
-				<li><a href="howtoplay.html">遊び方</a></li>
-				<li><a href="download.html">ダウンロード</a></li>
-				<li><a href="termsofservice.html">利用規約</a></li>
-				<li><a href="ranking.html">ランキング(工事中)</a></li>
-				<li><a href="bbs.html">掲示板(工事中)</a></li>
-				<li><a>Twitter(工事中)</a></li>
-			</ul>
-  		</header>
+			<img src="images/logo2.png" id="titlelogo" class="img-responsive center-block">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+						<span class="sr-only">メニュー</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="gnavi" class="collapse navbar-collapse">
+					<ul id = "menu" class="nav navbar-nav">
+						<li><a href="index.html">ホーム</a></li>
+						<li><a href="whatsnew.html">お知らせ・更新情報</a></li>
+						<li><a href="howtoplay.html">遊び方</a></li>
+						<li><a href="download.html">ダウンロード</a></li>
+						<li><a href="termsofservice.html">利用規約</a></li>
+						<li><a href="ranking.html">ランキング(工事中)</a></li>
+						<li><a href="bbs.html">掲示板(工事中)</a></li>
+						<li><a>Twitter(工事中)</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
   		<section id="contents">
-			<h1>遊び方</h1>
+			<h2>遊び方</h2>
 			<section>
-				<h2>注意</h2>
+				<h3>注意</h3>
 					ゲームをプレイする際は、同じデータリンク内でサーバーを立て、そこに接続する必要があります<br>
 					通信状況によってはラグが発生する可能性があります。ご了承ください。<br>
 					アクセスすべきサーバーが存在しない場合、ゲームが停止することがあります。<br>
-				<h2>はじめに</h2>
+				<h3>はじめに</h3>
 					このゲームはネットワークを用いたリアルタイム対戦ゲームです。<br>
 					まず、始めにconfigにてネットワークの設定してください。<br>
 					<!-- 画像 -->
 					メニュー > config > HOST NAME(IPアドレス),  PORTNUMBER(ポート番号20000)を入力 > <br>Register(登録) >escキーでメニューに戻る<br>
 					設定後、メニューから選択してプレイしてください。<br>
 					<!-- メニュー画像 -->
-					<a href="images/config1.png"><img src="images/config1_s.png"></a>
-					<a href="images/config2.png"><img src="images/config2_s.png"></a><br>
+					<a href="images/config1.png" ><img src="images/config1_s.png" class="img-responsive"></a>
+					<br>
+					<a href="images/config2.png"><img src="images/config2_s.png" class="img-responsive"></a>
 					<ul>
 						<li>1on1：1対1のランダムなネットワークリアルタイム対戦ができます(工事中)</li>
 						<li>2on2：2対2のランダムなネットワークリアルタイム対戦ができます</li>
 						<li>Config：ネットワーク対戦の為の設定を行います。</li>
 						<li>Credit：製作者のクレジットです。</li>
 					</ul>
-
 			</section>
 			<section>
-				<h2>対戦ルール</h2>
+				<h3>対戦ルール</h3>
 					時間制限以内にステージ上のマスを多く爆弾で塗りつぶした方が勝利です。<br>
 					爆弾は配置すると一定時間で爆発します。<br>
 					爆発によって爆破範囲分ステージを塗りつぶすことができます。<br>
@@ -56,18 +73,19 @@
 					爆発には巻き込まれたら敵味方関係なくスタート地点に戻されます。<br>	
 					スタート地点は安全エリアであり、爆破を食らわず塗りつぶされることもありません。<br>
 					障害物の影にいると爆発を避けることができます。<br>
-					<a href="images/battle1.png"><img src="images/battle1_s.png"></a>
-					<a href="images/battle2.png"><img src="images/battle2_s.png"></a><br>
+					<a href="images/battle1.png"><img src="images/battle1_s.png" class="img-responsive"></a>
+					<br>
+					<a href="images/battle2.png"><img src="images/battle2_s.png" class="img-responsive"></a>
 					リザルト画面にて結果が出ます。<br>
 					<ul>
 						<li>KILL:自分の配置した爆弾で倒した数</li>
 						<li>DEATH：爆破に当たった回数</li>
 					</ul>
-					<a href="images/results.png"><img src="images/results_s.png"></a><br>
+					<a href="images/results.png"><img src="images/results_s.png" class="img-responsive"></a><br>
 					上手く爆弾を配置することで、相手に勝利しましょう。<br>
 			</section>
 			<section>
-				<h2>操作説明</h2>
+				<h3>操作説明</h3>
 					<ul>
 						<li>十字キー：移動もしくはカーソル移動</li>
 						<li>Shift+十字キー：方向転換</li>
@@ -77,6 +95,6 @@
 					</ul>
 			</section>
 		</section>
-   		<footer>Copyright © 2016- Bombertoon制作チーム All Rights Reserved.</footer>
+		<footer>Copyright © 2016- Bombertoon制作チーム All Rights Reserved.</footer>
 	</body>
 </html>
