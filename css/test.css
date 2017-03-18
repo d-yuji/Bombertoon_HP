@@ -1,15 +1,37 @@
 body{
 	background: #FAFAFA;
-	margin: 30px auto;
+	margin: 100px;
 	font-family:'メイリオ', Meiryo,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',  'ＭＳ Ｐゴシック', sans-serif !important;
 	background-image: url("../images/haikei.png");
 }
-header{
-	background: rgba(245,245,245,0.85);/*#F5F5F5*/
-	width: 1000px;
-	text-align: text-left;
-	margin:10px auto;
+header {
+	background: rgba(245,245,245,0.85);
 }
+.navbar{
+	background-color: #3737DC;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #26534c;
+	background-color:#C5CAE9;
+}
+.navbar-default .navbar-header > button{
+	background-color:white;
+}
+@media (min-width: 768px){
+	.navbar-nav{
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+		float:none;
+		color: white;
+	}
+}
+
+/*
 #menu {
  	padding:0;
  	margin:10px auto;
@@ -42,20 +64,20 @@ header{
 }
 #menu li:last-child a {
 	border-radius:  0 5px 5px 0;
-}
+}*/
 #contents{
-	width:920px;
+	/*width:920px;*/
 	background: rgba(250,250,250,0.85);/*#F5F5F5*/
 	color: #1F242E;
 	padding: 10px 30px 10px 50px;
 	text-align:text-left;
-	margin:60px auto;
+	/*margin:100px;*/
 	line-height: 1.5em;
 
 }
 footer{
 	font-size:12px;
-	width: 1000px;
+	/*width: 1000px;*/
 	text-align: center;
-	margin: 10px auto
+	margin: 100px;
 }

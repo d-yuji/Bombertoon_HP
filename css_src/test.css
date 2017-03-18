@@ -10,6 +10,29 @@ header{
 	text-align: text-left;
 	margin:10px auto;
 }
+.navbar{
+	background-color: #546E7A;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #26534c;
+	background-color:#C5CAE9;
+}
+.navbar-default .navbar-header > button{
+	background-color:white;
+}
+@media (min-width: 768px){
+	.navbar-nav{
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+		float:none;
+		color: white;
+	}
+}/*
 #menu {
  	padding:0;
  	margin:10px auto;
@@ -43,6 +66,8 @@ header{
 #menu li:last-child a {
 	border-radius:  0 5px 5px 0;
 }
+*/
+
 #contents{
 	width:920px;
 	background: rgba(250,250,250,0.85);/*#F5F5F5*/

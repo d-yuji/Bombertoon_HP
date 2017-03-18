@@ -3,31 +3,50 @@
 <html lang = "ja">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bombertoon</title>
 		<link rel ="shortcut icon" href="BT.ico">
 		<style></style>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
 		<link rel="stylesheet" href="css/test.css" >
 	</head>
 	<body>
 		<header>
-			<img src="images/logo2.png">
-			<ul id = "menu">
-				<li><a href="index.html">ホーム</a></li>
-				<li><a href="whatsnew.html">お知らせ・更新情報</a></li>
-				<li><a href="howtoplay.html">遊び方</a></li>
-				<li><a href="download.html">ダウンロード</a></li>
-				<li><a href="termsofservice.html">利用規約</a></li>
-				<li><a href="ranking.html">ランキング(工事中)</a></li>
-				<li><a href="bbs.html">掲示板(工事中)</a></li>
-				<li><a>Twitter(工事中)</a></li>
-			</ul>
+			<img src="images/logo2.png" id="titlelogo" class="img-responsive center-block">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+						<span class="sr-only">メニュー</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="gnavi" class="collapse navbar-collapse">
+					<ul id = "menu" class="nav navbar-nav">
+						<li><a href="index.html">ホーム</a></li>
+						<li><a href="whatsnew.html">お知らせ・更新情報</a></li>
+						<li><a href="howtoplay.html">遊び方</a></li>
+						<li><a href="download.html">ダウンロード</a></li>
+						<li><a href="termsofservice.html">利用規約</a></li>
+						<li><a href="ranking.html">ランキング(工事中)</a></li>
+						<li><a href="bbs.html">掲示板(工事中)</a></li>
+						<li><a>Twitter(工事中)</a></li>
+					</ul>
+				</div>
+			</nav>
 		</header>
 		<section id="contents">
 			<section>
-				<h1>ダウンロード</h1>
+				<h3>ダウンロード</h3>
 					<p>以下のリンクよりダウンロードしてください</p>
-					<a href="http://firestorage.jp/download/b4a33144ab2074c88f6fbd78b5084fa5b269daa5">ダウンロード　BombertoonClient ver0.10</a><br>
-					<a href="http://firestorage.jp/download/30c0e557812abf620240d4ad008ef40830f3df12">ダウンロード　BombertoonServer ver0.10</a>
+					<p>現在停止中</p>
+					<!-- <a href="http://firestorage.jp/download/b4a33144ab2074c88f6fbd78b5084fa5b269daa5">ダウンロード　BombertoonClient ver0.10</a><br> -->
+					<!-- <a href="http://firestorage.jp/download/30c0e557812abf620240d4ad008ef40830f3df12">ダウンロード　BombertoonServer ver0.10</a> -->
 			</section>
 			<br>
 		</section>
