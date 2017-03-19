@@ -1,6 +1,6 @@
 body{
 	background: #FAFAFA;
-	margin: 100px;
+	margin: 0px auto;
 	font-family:'メイリオ', Meiryo,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',  'ＭＳ Ｐゴシック', sans-serif !important;
 	background-image: url("../images/haikei.png");
 }
@@ -22,6 +22,9 @@ header {
 	background-color:white;
 }
 @media (min-width: 768px){
+	body{
+		margin: 100px;
+	}
 	.navbar-nav{
 		margin: 0 auto;
 		display: table;
