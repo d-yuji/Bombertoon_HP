@@ -35,7 +35,10 @@ section img:hover{
 	text-align:text-left;
 	line-height: 1.5em;
 }
-
+h2,h3{
+	opacity: 0.8;
+	border-bottom: 2px solid #3737dc;
+}
 footer{
 	font-size:12px;
 	text-align: center;
