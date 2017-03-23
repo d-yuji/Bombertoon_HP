@@ -37,7 +37,11 @@ section img:hover{
 }
 div h3{
 	opacity: 0.8;
-	border-bottom: 2px solid #3737dc;
+	border-bottom: 2px solid #aaf;
+	box-shadow: 0 2px 0 rgba(255,255,255,1);
+}
+h2{
+	font-size: 28px;
 }
 footer{
 	font-size:12px;
