@@ -37,12 +37,13 @@ section img:hover{
 }
 div h3{
 	color: #212121;
+	font-size: 20px;
 	border-bottom: 3px solid white;
 	box-shadow: 0 1.5px 0 #aaf;
 }
 h2{
 	color: #414151;
-	font-size: 32px;
+	font-size: 28px;
 }
 footer{
 	font-size:12px;
@@ -53,6 +54,15 @@ footer{
 @media (min-width: 768px){
 	body{
 		margin: 100px;
+	}
+	div h3{
+		font-size: 24px;
+		border-bottom: 3px solid white;
+		box-shadow: 0 1.5px 0 #aaf;
+	}
+	h2{
+		color: #414151;
+		font-size: 32px;
 	}
 	#contents{
 		font-size: 16px;
