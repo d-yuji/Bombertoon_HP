@@ -1,3 +1,4 @@
+/*共通・モバイル端末の設定*/
 body{
 	background: #FAFAFA;
 	margin: 0px auto;
@@ -15,15 +16,50 @@ header {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #26534c;
+	color: #212121;
 	background-color:#C5CAE9;
 }
 .navbar-default .navbar-header > button{
 	background-color:white;
 }
+section img{
+	margin: 15px;
+}
+section img:hover{
+	opacity: 0.5;
+}
+#contents{
+	background: rgba(250,250,250,0.85);
+	color: #1F242E;
+	padding: 15px;
+	text-align:text-left;
+	line-height: 1.5em;
+}
+div h3{
+	opacity: 0.8;
+	border-bottom: 2px solid #aaf;
+	box-shadow: 0 2px 0 rgba(255,255,255,1);
+}
+h2{
+	font-size: 28px;
+}
+footer{
+	font-size:12px;
+	text-align: center;
+	margin: 15px;
+}
+/*PC用の設定*/
 @media (min-width: 768px){
 	body{
 		margin: 100px;
+	}
+	#contents{
+		font-size: 16px;
+		background: rgba(250,250,250,0.85);
+		color: #1F242E;
+		padding: 10px 30px 10px 50px;
+		text-align:text-left;
+		line-height: 1.5em;
 	}
 	.navbar-nav{
 		margin: 0 auto;
@@ -32,55 +68,8 @@ header {
 		float:none;
 		color: white;
 	}
-}
-
-/*
-#menu {
- 	padding:0;
- 	margin:10px auto;
- 	list-style-type: none;
-}
-#menu li {
-	width:12.5%;
-	float:left;
-	padding:0;
-	margin:0;
-	text-align:center;
-}
-#menu li a {
-	width:auto;
-	color:#FFFFFF;
-	font-size:12px;
-	padding:10px 0;
-	text-decoration:none;
-	display:block;
-	background:#3737DC;
-	border-left: 1px solid #FFFFFF;
-}
-#menu li a:hover {
-	color:#263238;
-	font-weight:bold;
-	background:#C5CAE9;
-}
-#menu li:first-child a {
-	border-radius: 5px 0 0 5px;
-}
-#menu li:last-child a {
-	border-radius:  0 5px 5px 0;
-}*/
-#contents{
-	/*width:920px;*/
-	background: rgba(250,250,250,0.85);/*#F5F5F5*/
-	color: #1F242E;
-	padding: 10px 30px 10px 50px;
-	text-align:text-left;
-	/*margin:100px;*/
-	line-height: 1.5em;
-
-}
-footer{
-	font-size:12px;
-	/*width: 1000px;*/
-	text-align: center;
-	margin: 100px;
+	footer{
+		text-align: center;
+		margin: 100px;
+	}
 }
