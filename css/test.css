@@ -22,6 +22,12 @@ header {
 .navbar-default .navbar-header > button{
 	background-color:white;
 }
+section img{
+	margin: 15px;
+}
+section img:hover{
+	opacity: 0.5;
+}
 #contents{
 	background: rgba(250,250,250,0.85);
 	color: #1F242E;
