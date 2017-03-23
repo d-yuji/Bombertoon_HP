@@ -16,7 +16,7 @@ header {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #26534c;
+	color: #212121;
 	background-color:#C5CAE9;
 }
 .navbar-default .navbar-header > button{
@@ -41,6 +41,7 @@ footer{
 		margin: 100px;
 	}
 	#contents{
+		font-size: 16px;
 		background: rgba(250,250,250,0.85);
 		color: #1F242E;
 		padding: 10px 30px 10px 50px;
