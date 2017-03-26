@@ -113,10 +113,39 @@
 					</ul>
 			</section>
 			</div>
+		<div id="back-to-top" style="position: fixed;right:150px;bottom:150px;font-size: 50px;">
+		<a href="#"><i class="glyphicon glyphicon-arrow-up"></i></a>
+		</div>
+		<!-- <div id= "pos" style="position: fixed;right:10px;bottom: 10px"></div> -->
 		</section>
 		<footer>Copyright © 2016- Bombertoon制作チーム All Rights Reserved.</footer>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"　async></script>
 		<script src="js/bootstrap.min.js"　async></script>
+		<script >
+		$(function(){
+			//back -to topを消す
+			$('#back-to-top').hide();
+
+			//スクロールが十分されたら表示
+			$(window).scroll(function() {
+				// $('#pos').text(
+				// 	 $(this).scrollTop()
+				// );
+				if( $(this).scrollTop() > 60){
+					$('#back-to-top').fadeIn();
+				}else{
+					$('#back-to-top').fadeOut();
+				}
+			});
+
+			$('#back-to-top a').click(function() {
+				$('body').animate({
+					scrollTop:0
+				}, 500);
+				return false;
+			});
+		});
+		</script>
 	</body>
 </html>

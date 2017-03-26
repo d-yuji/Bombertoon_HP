@@ -50,6 +50,12 @@ footer{
 	text-align: center;
 	margin: 15px;
 }
+div #back-to-rop{
+	position: fixed;
+	right:0px;
+	bottom: 0px
+	z-index:1;
+}
 /*PC用の設定*/
 @media (min-width: 768px){
 	body{
