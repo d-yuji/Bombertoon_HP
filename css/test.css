@@ -50,11 +50,11 @@ footer{
 	text-align: center;
 	margin: 15px;
 }
-div #back-to-top{
+#back-to-top{
 	position: fixed;
-	right:150px;
-	bottom: 150px
-	z-index:1;
+	right:30px;
+	bottom:30px;
+	font-size: 30px;
 }
 /*PC用の設定*/
 @media (min-width: 768px){
@@ -84,6 +84,12 @@ div #back-to-top{
 		table-layout: fixed;
 		float:none;
 		color: white;
+	}
+	#back-to-top{
+		position: fixed;
+		right:130px;
+		bottom:130px;
+		font-size: 45px;
 	}
 	footer{
 		text-align: center;
