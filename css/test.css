@@ -59,7 +59,7 @@ footer{
 /*PC用の設定*/
 @media (min-width: 768px){
 	body{
-		margin: 100px;
+		margin: 30px 100px 100px 100px;
 	}
 	div h3{
 		font-size: 24px;
